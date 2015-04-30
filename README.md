@@ -2,7 +2,7 @@
 
 ## Forking/Pull Requests
 
-Pull requests are encouraged! Add new wrappers or more tags to existing ones.
+Pull requests are encouraged! Add new jobs or more tags to existing ones.
 
 1. `bundle install`
 
