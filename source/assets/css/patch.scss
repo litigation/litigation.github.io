@@ -140,9 +140,17 @@ code {
         color: $teal;
         margin-bottom: 8px;
 
-        .institution {
+        .institution-type {
             margin-right: 2px;
         }
+        .institution-name {
+            margin-left: 2px;
+            float: right;
+        }
+    }
+
+    .wrapper-experiences {
+        display: none;
     }
 
     .wrapper-body {
@@ -150,11 +158,43 @@ code {
         margin-bottom: 20px;
     }
 
-    .wrapper-gem {
-        margin-bottom: 20px;
+    .wrapper-requirements {
+        position: relative;
+    }
 
-        .gem-downloads {
-            margin-top: 5px;
+    .wrapper-requirements-label {
+        color: #333333;
+        &:hover {
+            text-decoration: none;
+        }
+
+        &:after, &:before {
+            left: -9px;
+            top: 8px;
+            border: solid transparent;
+            content: " ";
+            height: 0;
+            width: 0;
+            position: absolute;
+            pointer-events: none;
+        }
+
+        &:after {
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 3px 0 3px 6px;
+            border-color: transparent transparent transparent #d8d8d8;
+        }
+
+        &.active {
+            &:after {
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 6px 3px 0 3px;
+                border-color: #d8d8d8 transparent transparent transparent;
+            }
         }
     }
 
@@ -274,7 +314,7 @@ code {
     }
 }
 
-.filter-institutions {
+.filter-experience {
     @include filter-td($teal);
 }
 

@@ -56,18 +56,22 @@
           </div>
 
           <div class="row filters">
-            <div class="filter-group filter-institutions">
-              <h4 class="filter-group-title">Filter By Institution</h4>
+            <div class="filter-group filter-experience">
+              <h4 class="filter-group-title">Filter By Years Experience</h4>
               <table>
                 <tr>
-                  <td>Big Law</td>
-                  <td>Mid Sized</td>
-                  <td>Boutique</td>
-                </tr>
-                <tr>
-                  <td>Corporate Counsel</td>
-                  <td>Non-Profit</td>
-                  <td>Government</td>
+                  <td>0</td>
+                  <td>1</td>
+                  <td>2</td>
+                  <td>3</td>
+                  <td>4</td>
+                  <td>5</td>
+                  <td>6</td>
+                  <td>7</td>
+                  <td>8</td>
+                  <td>9</td>
+                  <td>10</td>
+                  <td>11+</td>
                 </tr>
               </table>
             </div>
@@ -94,7 +98,7 @@
               </div>
             </div>
             <div class="row wrappers-list">
-              <% halves = sort_by_downloads(category["wrappers"]).each_slice( (category["wrappers"].size/2.0).round ).to_a %>
+              <% halves = category["wrappers"].each_slice( (category["wrappers"].size/2.0).round ).to_a %>
               <% halves.each_with_index do |wrappers, col_index| %>
                 <div class="col-md-6 wrappers-column wrappers-column-<%= col_index %>">
                 <% wrappers.each_with_index do |wrapper, index| %>

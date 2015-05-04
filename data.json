@@ -1,131 +1,127 @@
 {
   "categories": [
     {
-      "name": "General",
+      "name": "Big Law",
       "wrappers": [
         {
           "name": "Name of Position",
+          "institution_type": "type",
           "institution_name": "Name of Firm",
           "url": "url to the posting",
           "description": "Description of the position",
           "requirements": "Desired qualifications",
+          "years_experience":[],
           "tags": [
-
-          ],
-          "institutions": [
 
           ]
         }
       ]
     },
     {
-      "name": "Junior",
+      "name": "Mid Sized",
       "wrappers": [
         {
           "name": "Complex Insurance Fraud/Commercial Litigation",
+          "institution_type": "Boutique",
           "institution_name": "Rivkin Radler, LLP",
           "url": "http://l.ny.nyc.associationcareernetwork.com/JobSeeker/JobDetail.aspx?abbr=L.NY.NYC&jobid=eff10e0b-b6d4-4a1f-bac2-427a6788425e&stats=y",
           "description": "Litigation & Appeals Group",
           "requirements": "0 to 2 years’ experience, with excellent academic credentials, strong writing skills, and a commitment to handling challenging and demanding litigation work.",
+          "years_experience":["0","1","2"],
           "tags": [
             "Commercial",
             "Insurance",
             "Appeals",
             "Fraud"
-          ],
-          "institutions": [
-            "Boutique"
           ]
         }
       ]
     },
     {
-      "name": "Mid-Level",
+      "name": "Boutique",
       "wrappers": [
         {
           "name": "Complex Insurance Fraud/Commercial Litigation",
+          "institution_type": "Boutique",
           "institution_name": "Rivkin Radler, LLP",
           "url": "http://l.ny.nyc.associationcareernetwork.com/JobSeeker/JobDetail.aspx?abbr=L.NY.NYC&jobid=eff10e0b-b6d4-4a1f-bac2-427a6788425e&stats=y",
           "description": "Litigation & Appeals Group",
           "requirements": "3 to 5 years’ experience, with same requirements above, plus federal court experience, familiarity with No-Fault Insurance Law, the RICO Act, and meaningful case management/case running experience.",
+          "years_experience":["3","4","5"],
           "tags": [
             "Commercial",
             "Insurance",
             "Appeals",
             "Fraud"
-          ],
-          "institutions": [
-            "Boutique"
+          ]
+        },
+        {
+          "name": "Complex Insurance Fraud/Commercial Litigation",
+          "institution_type": "Boutique",
+          "institution_name": "Rivkin Radler, LLP",
+          "url": "http://l.ny.nyc.associationcareernetwork.com/JobSeeker/JobDetail.aspx?abbr=L.NY.NYC&jobid=eff10e0b-b6d4-4a1f-bac2-427a6788425e&stats=y",
+          "description": "Litigation & Appeals Group",
+          "requirements": "0 to 2 years’ experience, with excellent academic credentials, strong writing skills, and a commitment to handling challenging and demanding litigation work.",
+          "years_experience":["0","1","2"],
+          "tags": [
+            "Commercial",
+            "Insurance",
+            "Appeals",
+            "Fraud"
           ]
         }
       ]
     },
     {
-      "name": "Senior",
+      "name": "Corporate Counsel",
       "wrappers": [
         {
-          "name": "Associate General Counsel",
-          "institution_name": "Columbia University",
-          "url": "https://jobs.columbia.edu/applicants/jsp/shared/frameset/Frameset.jsp?time=1430358705518",
-          "description": "The Office of the General Counsel currently consists of nineteen attorneys providing a broad array of legal services for an academic research university. The Office is seeking an attorney in addressing research, international and regulatory compliance issues affecting the University. This position provides counsel to the University on a wide range of litigation and administrative matters, directly and with the assistance of outside counsel. The responsibilities of this position will focus upon the University's research community, which includes the Morningside campus and the University's Medical Center. The successful candidate will have the ability to analyze complex matters and react appropriately; must exercise excellent judgement, handle multiple matters; offer counsel to high-level University officials and researchers; utilize outside counsel in a cost effective manner, and work independently.",
-          "requirements": "Bachelor's degree and J.D. with superior academic record and with a minimum 7 years in litigation, investigations and/or government regulatory law.",
-          "tags": [
-            "Environment",
-            "Education",
-            "Regulation"
-          ],
-          "institutions": [
-            "Non-Profit"
-          ]
-        },
-        {
           "name": "AFCO General Counsel",
+          "institution_type": "Corporate Counsel",
           "institution_name": "BB&T",
           "url": "https://sjobs.brassring.com/tgwebhost/jobdetails.aspx?jobId=218370&PartnerId=25999&SiteId=5373&codes=Indeed",
           "description": "As a member of the BB&T Legal Department, serve as General Counsel to AFCO Credit Corporation and its affiliates, including CAFO, Inc. and Prime Rate Premium Finance Corporation, Inc. AFCO and its affiliated companies are among the leaders in insurance premium financing and serve customers throughout the United States and Canada.",
           "requirements": "8-10 years of post bar experience, or equivalent education and related training.",
+          "years_experience":["8","9","10"],
           "tags": [
             "Insurance Financing",
             "Bankruptcy"
-          ],
-          "institutions": [
-            "Corporate Counsel"
           ]
         }
       ]
     },
     {
-      "name": "Counsel",
+      "name": "Non-Profit",
       "wrappers": [
         {
-          "name": "Name of Position",
-          "institution_name": "Name of Firm",
-          "url": "url to the posting",
-          "description": "Description of the position",
-          "requirements": "Desired qualifications",
+          "name": "Associate General Counsel",
+          "institution_type": "Non-Profit",
+          "institution_name": "Columbia University",
+          "url": "https://jobs.columbia.edu/applicants/jsp/shared/frameset/Frameset.jsp?time=1430358705518",
+          "description": "The Office of the General Counsel currently consists of nineteen attorneys providing a broad array of legal services for an academic research university. The Office is seeking an attorney in addressing research, international and regulatory compliance issues affecting the University. This position provides counsel to the University on a wide range of litigation and administrative matters, directly and with the assistance of outside counsel. The responsibilities of this position will focus upon the University's research community, which includes the Morningside campus and the University's Medical Center. The successful candidate will have the ability to analyze complex matters and react appropriately; must exercise excellent judgement, handle multiple matters; offer counsel to high-level University officials and researchers; utilize outside counsel in a cost effective manner, and work independently.",
+          "requirements": "Bachelor's degree and J.D. with superior academic record and with a minimum 7 years in litigation, investigations and/or government regulatory law.",
+          "years_experience":["7","8","9","10","11+"],
           "tags": [
-
-          ],
-          "institutions": [
-
+            "Environment",
+            "Education",
+            "Regulation"
           ]
         }
       ]
     },
     {
-      "name": "Partner+",
+      "name": "Government",
       "wrappers": [
         {
           "name": "Name of Position",
+          "institution_type": "type",
           "institution_name": "Name of Firm",
           "url": "url to the posting",
           "description": "Description of the position",
           "requirements": "Desired qualifications",
+          "years_experience":[],
           "tags": [
 
-          ],
-          "institutions": [
-            
           ]
         }
       ]

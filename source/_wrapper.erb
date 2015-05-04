@@ -3,23 +3,25 @@
     <h3><a href="<%= wrapper["url"] %>" target="_blank"><%= wrapper["name"] %></a></h3>
   </div>
   <div class="wrapper-institutions">
-    <% wrapper['institutions'].each_with_index do |institution, index| %>
-      <% suffix = "" %>
-      <% suffix = ", " if index != wrapper['institutions'].size - 1 %>
-      <span class="institution"><%= institution %><%= suffix %></span>
-    <% end %>
+      <span class="institution-type"><%= wrapper["institution_type"] %></span>
+      <span class="institution-name"><%= wrapper["institution_name"] %></span>
   </div>
   <div class="wrapper-body">
     <%= wrapper["description"] %>
   </div>
-  <% if wrapper["gem_name"] %>
-    <div class="wrapper-gem">
-      <code><a target="_blank" href="http://rubygems.org/gems/<%= wrapper['gem_name'] %>">gem install <%= wrapper["gem_name"] %></a></code>
-      <div class="gem-downloads">
-        (<%= download_count(wrapper['gem_name']) %> downloads)
-      </div>
+  <div class="wrapper-experiences">
+    <% wrapper['years_experience'].each_with_index do |experience, index| %>
+      <% suffix = "" %>
+      <% suffix = ", " if index != wrapper['years_experience'].size - 1 %>
+      <span class="experience"><%= experience %><%= suffix %></span>
+    <% end %>
+  </div>
+  <div class="wrapper-requirements">
+    <a class="wrapper-requirements-label" href="javascript:void(0)">Requirements</a>
+    <div class="wrapper-requirements-list">
+      <%= wrapper["requirements"] %>
     </div>
-  <% end %>
+  </div>
   <div class="wrapper-tags">
     <a class="wrapper-tags-label" href="javascript:void(0)">Tags</a>
     <div class="wrapper-tags-list">
