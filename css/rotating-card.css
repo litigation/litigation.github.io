@@ -120,6 +120,10 @@ body {
     color: white !important;
     background-color: #36435A;
 }
+.clickable-content-front{
+    text-decoration: none !important;
+    background-color: #36435A;
+}
 .card .content{
     background-color: rgba(0, 0, 0, 0);
     box-shadow: none;
